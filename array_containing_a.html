@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>to find the elements containing 'a'</title>
+ </head>
+ <body>
+     <script>
+          let arr=[];
+           let arr2=[];
+           let n=prompt("enter the number of elements you want enter ");
+           for(let i=0;i<n;i++){
+              arr[i]=prompt("enter the element to array"); }
+          alert(arr);
+ 
+           for(let i=0;i<arr.length;i++)
+           {
+              if(arr[i].includes("a"))   {
+                  arr2[i]=arr[i];
+               }
+           }
+            alert(arr2);
+          
+     </script>
+ </body>
+ </html>
+ 
